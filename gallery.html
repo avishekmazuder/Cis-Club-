@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIS Club – Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <!-- LOGO + TEXT -->
+            <div class="logo-section">
+                <img src="logo.png" alt="CIS Club Logo">
+                <span class="club-title">CIS Club</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="members.html">Join</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <h1>Photo Gallery</h1>
+        <p>Highlights from CIS Club events, workshops, and activities.</p>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item">
+                <img src="gallery1.jpg" alt="Gallery Image 1">
+            </div>
+
+            <div class="gallery-item">
+                <img src="gallery2.jpg" alt="Gallery Image 2">
+            </div>
+
+            <div class="gallery-item">
+                <img src="gallery3.jpg" alt="Gallery Image 3">
+            </div>
+
+            <div class="gallery-item">
+                <img src="gallery4.jpg" alt="Gallery Image 4">
+            </div>
+
+            <div class="gallery-item">
+                <img src="gallery5.jpg" alt="Gallery Image 5">
+            </div>
+
+            <div class="gallery-item">
+                <img src="gellery6.jpg" alt="Gallery Image 6">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Modal / Lightbox Structure (JS needed later) -->
+    <div id="lightboxModal" class="lightbox-modal">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightboxImage" alt="">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 CIS Club • All Rights Reserved</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" id="backToTop" class="back-to-top">▲</a>
+
+    
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIS Club – Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <!-- LOGO + TEXT -->
+            <div class="logo-section">
+                <img src="logo.png" alt="CIS Club Logo">
+                <span class="club-title">CIS Club</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="members.html">Join</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h1>Contact Us</h1>
+        <p>Have questions or want more information? Get in touch with the CIS Club!</p>
+
+        <div class="contact-container">
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h2>Club Contact Details</h2>
+                <p><strong>Email:</strong> cisclub@example.com</p>
+                <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                <p><strong>Location:</strong> Building A, Room 204</p>
+
+                <h3>Office Hours</h3>
+                <p>Monday – Friday: 10:00 AM – 4:00 PM</p>
+            </div>
+
+            <!-- Message Form -->
+            <div class="contact-form">
+                <h2>Send a Message</h2>
+
+                <form id="contactForm" novalidate>
+
+                    <div class="form-group">
+                        <label for="name">Full Name*</label>
+                        <input type="text" id="name" name="name" required>
+                        <small class="error-message">Name is required.</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address*</label>
+                        <input type="email" id="email" name="email" required>
+                        <small class="error-message">Valid email is required.</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject*</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <small class="error-message">Subject is required.</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message*</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <small class="error-message">Message cannot be empty.</small>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 CIS Club • All Rights Reserved</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" id="backToTop" class="back-to-top">▲</a>
+
+
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIS Club – Join</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <!-- LOGO + TEXT -->
+            <div class="logo-section">
+                <img src="logo.png" alt="CIS Club Logo">
+                <span class="club-title">CIS Club</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="members.html" class="active">Join</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Membership Benefits Section -->
+    <section class="membership-section">
+        <h1>Join the CIS Club</h1>
+        <p>Become part of a growing community of tech enthusiasts and innovators!</p>
+
+        <h2>Membership Benefits</h2>
+        <ul class="benefits-list">
+            <li>Access to exclusive workshops and events</li>
+            <li>Networking opportunities with tech professionals</li>
+            <li>Hands-on project experience</li>
+            <li>Leadership and volunteer opportunities</li>
+            <li>Collaborate with students who share your interests</li>
+        </ul>
+    </section>
+
+    <!-- Join Form -->
+    <section class="join-form-section">
+        <h2>Membership Form</h2>
+        <p>Please fill out the form below to apply for membership.</p>
+
+        <form id="joinForm" novalidate>
+            <div class="form-group">
+                <label for="name">Full Name*</label>
+                <input type="text" id="name" name="name" required>
+                <small class="error-message">Name is required.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address*</label>
+                <input type="email" id="email" name="email" required>
+                <small class="error-message">Valid email is required.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="studentId">Student ID*</label>
+                <input type="text" id="studentId" name="studentId" required>
+                <small class="error-message">Student ID is required.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="interest">Area of Interest</label>
+                <select id="interest" name="interest">
+                    <option value="">Select an area</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Cybersecurity">Cybersecurity</option>
+                    <option value="AI / ML">AI / Machine Learning</option>
+                    <option value="Game Development">Game Development</option>
+                    <option value="Networking">Networking</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Why do you want to join?</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Application</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 CIS Club • All Rights Reserved</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" id="backToTop" class="back-to-top">▲</a>
+
+    
+    
+</body>
+</html>

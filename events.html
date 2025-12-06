@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIS Club – Events</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <!-- LOGO + TEXT -->
+            <div class="logo-section">
+                <img src="logo.png" alt="CIS Club Logo">
+                <span class="club-title">CIS Club</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html" class="active">Events</a></li>
+                <li><a href="members.html">Join</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Events Page -->
+    <section class="events-page">
+
+        <h1>Upcoming Events</h1>
+        <p class="subtitle">Explore upcoming CIS Club activities and filter by category.</p>
+
+        <!-- Filters -->
+        <div class="event-filters">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="workshop">Workshop</button>
+            <button class="filter-btn" data-category="tech-talk">Tech Talk</button>
+            <button class="filter-btn" data-category="competition">Competition</button>
+        </div>
+
+        <!-- Event List -->
+        <div class="events-grid">
+
+            <!-- Event 1 -->
+            <div class="event-card" data-category="tech-talk">
+                <h2>Tech Talk: Future of AI</h2>
+                <p><strong>Date:</strong> March 18, 2025</p>
+                <p>A deep dive into the future of artificial intelligence and how it will shape our world.</p>
+                <a href="event-detail.html" class="details-btn">View Details</a>
+            </div>
+
+            <!-- Event 2 -->
+            <div class="event-card" data-category="workshop">
+                <h2>Web Development Workshop</h2>
+                <p><strong>Date:</strong> April 5, 2025</p>
+                <p>Hands-on training session on modern frontend tools and responsive design practices.</p>
+                <a href="event-detail.html" class="details-btn">View Details</a>
+            </div>
+
+            <!-- Event 3 -->
+            <div class="event-card" data-category="competition">
+                <h2>Coding Challenge Competition</h2>
+                <p><strong>Date:</strong> April 22, 2025</p>
+                <p>Showcase your programming skills in an exciting timed challenge.</p>
+                <a href="event-detail.html" class="details-btn">View Details</a>
+            </div>
+
+            <!-- Event 4 -->
+            <div class="event-card" data-category="workshop">
+                <h2>Cybersecurity Basics Workshop</h2>
+                <p><strong>Date:</strong> May 10, 2025</p>
+                <p>Learn about online safety, encryption, and ethical hacking fundamentals.</p>
+                <a href="event-detail.html" class="details-btn">View Details</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 CIS Club • All Rights Reserved</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" id="backToTop" class="back-to-top">▲</a>
+
+</body>
+</html>
